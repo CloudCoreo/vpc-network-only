@@ -38,3 +38,8 @@ variables:
         type: array
         default:
             - 
+    PUBLIC_SUBNET_NUM_ZONES:
+        required: true
+        description: How many public subnets to create
+        type: number
+        default: 2
